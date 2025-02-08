@@ -5,11 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class dazz6 {
-    public static void main(String[] args) {
-        System.out.println("1) 3,4,2,1,5 : " + Arrays.toString(new dazz6().solution(5, new int[]{2, 1, 2, 6, 2, 4, 3, 3})));
-        System.out.println("2) 4,1,2,3 : " + Arrays.toString(new dazz6().solution(4, new int[]{4, 4, 4, 4, 4})));
-    }
-
     public int[] solution(int N, int[] stages) {
         double[][] result = new double[N][2];
 
